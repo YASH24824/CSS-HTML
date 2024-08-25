@@ -1,0 +1,65 @@
+.italic {
+    font-style: italic;
+}
+@media (max-width: 830px) {
+        .responsive-table td {
+            display: block;
+        }
+    }
+    .select{
+        text-align:center;
+        width: 270px;
+        padding: 3px;
+        cell-spacing:2px;
+    }
+    .apply{
+        margin-left: 90px;
+        height: 44px;
+        width: 100px;
+    }
+    /* Center alignment for td elements */
+    .textInput {
+        width: 330px;
+        height: 35px;
+    }
+   .inputText{
+height: 38px;
+width: 280px;
+   }
+    .b1{
+        width: 30px;
+    }
+    option[disabled] {
+        display: none;
+        text-align: center;
+    }
+
+#display {
+    width: 100%; /* Adjust width as needed */
+    height: 800px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden; /* Prevent canvas overflow */
+}
+#textCanvas {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.download-img-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
